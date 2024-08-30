@@ -1,0 +1,117 @@
+@media (max-width: 1880px) {
+  body {
+    background-color: hwb(0 1% 79%);
+    color: rgb(243, 190, 138);
+  }
+  .titleContainer {
+    border: solid rgb(243, 190, 138);
+    margin: 1em;
+    font-size: 50px;
+    text-align: center;
+  }
+  #maqlobaDescription{
+    border: solid rgb(243, 190, 138);
+    padding: 10px;
+    display:block;
+    height: fit-content;
+  }
+  #mosakhanDescripton,#falafelDescription{
+    display: none;
+  }
+  .picContainer{
+    border:solid rgb(243, 190, 138);
+    height:60vh;
+    background-image: url('https://i.ytimg.com/vi/8GkRdweq2YU/maxresdefault.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    width:48vw;
+}
+}
+/* ------------Desktop  */
+
+@media (max-width: 1180px) {
+  body {
+    background-color: rgb(93, 176, 118);
+  }
+  .titleContainer {
+    border: solid rgb(4, 61, 21);
+    margin: 1em;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(4, 61, 21);
+  }
+  #mosakhanDescripton{
+    border: solid rgb(4, 61, 21);
+    display:block;
+    padding: 10px;
+    display:block;
+    height: fit-content;
+    color:rgb(4, 61, 21);
+
+  }
+  #maqlobaDescription,#falafelDescription{
+    display: none;
+  }
+  .picContainer{
+    border:solid rgb(4, 61, 21);
+    height:31vh;
+    background-image: url('https://i.ytimg.com/vi/MabjcTUi3d8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC68OLhxENSA9zt4ir2auIP1i8m7A') ;
+  }
+}
+
+/* ---------------Mid  */
+
+
+@media (max-width: 880px) {
+    body {
+        background-color: rgb(192, 130, 73);
+    }
+    
+    .titleContainer {
+      border: solid white;
+      margin: 1em;
+      font-size: 50px;
+      text-align: center;
+      color: white;
+  }
+    #falafelDescription{
+      border: solid white;
+      display:block;
+      padding: 10px;
+      display:block;
+      height: fit-content;
+      color: white;
+    }
+  .picContainer{
+    border: solid white;
+    color: white;
+    height:40vh;
+    background-image: url('https://feelgoodfoodie.net/wp-content/uploads/2024/03/Falafel-TIMG.jpg') ;
+}
+#falafelDescription{
+  display:block;
+}
+#mosakhanDescripton,#maqlobaDescription {
+  display: none;
+}
+}
+/* -------------Mobile  */
+
+
+
+
+
+
+
+/* -------GeneralCSS */
+
+
+.food-description{
+  width: 90vw;
+  height: 30vh;
+  border: solid black;
+  margin: auto;
+  margin-bottom: 20px;
+  
+}
